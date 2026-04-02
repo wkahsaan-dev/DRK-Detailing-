@@ -1,5 +1,6 @@
 {
-  "name": "react-example",
+  "name": "drk-detailing-dmv",
+  "description": "Professional mobile car detailing services in the DMV area.",
   "private": true,
   "version": "0.0.0",
   "type": "module",

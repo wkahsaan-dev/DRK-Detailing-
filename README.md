@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# DRK Detailing - DMV Area
 
-# Run and deploy your AI Studio app
+Professional mobile car detailing services serving the DC, Maryland, and Virginia (DMV) area.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/82476068-f81e-4162-96e3-115d0a5293af
+- **Premium Detailing:** Exterior and Interior services.
+- **Mobile Service:** We come to you.
+- **Modern Design:** Responsive, high-end aesthetic with smooth animations.
+- **Contact Options:** Easy access via phone or email.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework:** React 19 + Vite
+- **Styling:** Tailwind CSS 4
+- **Animations:** Motion (formerly Framer Motion)
+- **Icons:** Lucide React
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/drk-detailing.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd drk-detailing
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Run the development server:
+```bash
+npm run dev
+```
+The app will be available at `http://localhost:3000`.
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+```
+The output will be in the `dist/` directory.
+
+### Deployment to GitHub Pages
+
+1. Update `vite.config.ts` to include the `base` path if you are deploying to a subpath:
+   ```typescript
+   // vite.config.ts
+   export default defineConfig({
+     base: '/your-repo-name/', // Change this to your repository name
+     // ...
+   });
+   ```
+2. Deploy using GitHub Actions (see `.github/workflows/deploy.yml`).
+
+## License
+
+This project is for demonstration purposes.
