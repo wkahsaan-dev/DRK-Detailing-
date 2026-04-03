@@ -1,11 +1,10 @@
 # DRK Detailing - DMV Area
 
-Professional mobile car detailing services serving the DC, Maryland, and Virginia (DMV) area.
+Professional car detailing services serving the DC, Maryland, and Virginia (DMV) area.
 
 ## Features
 
 - **Premium Detailing:** Exterior and Interior services.
-- **Mobile Service:** We come to you.
 - **Modern Design:** Responsive, high-end aesthetic with smooth animations.
 - **Contact Options:** Easy access via phone or email.
 
