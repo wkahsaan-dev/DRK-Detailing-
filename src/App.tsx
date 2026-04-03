@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Car, Phone, Mail, MapPin, CheckCircle2, Star, Shield, Clock } from "lucide-react";
 
 const SERVICES = [
